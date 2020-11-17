@@ -65,12 +65,14 @@ To create a well-structured informative website that provides some useful, pract
 
 - Step-by-step instructions with pictures on how to create 'the perfect cup of coffee'
 
-- A map of ireland with locations for a number of irish roasteries.
+
 
 - A page with separate sections for:
     - Coffee: a Brief History
     - Coffee Culture
     - The Health Benefits of Moderate Coffee Consumption
+
+- A map of ireland with locations for a number of irish roasteries.
 
 ## Testing
 
