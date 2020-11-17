@@ -15,6 +15,8 @@
     - Wireframes
 
 2. Features
+    - Implemented
+    - Planned
 
 3. Testing
 
@@ -26,6 +28,34 @@
 ## UX
 
 ### Project Goals
+
+Create a website educating visitors about the beverage of coffee.
+
+### Customer Goals
+
+- To find out how to make a good cup of coffee using beans or ground beans.
+- To learn some info about the coffee drink, its history and its culture.
+- To figure out where customers could purchase local coffee from irish roasteries.
+
+### Developer Goals
+
+To create a well-structured informative website that provides some useful, practical information in a pleasant visual format, laid out into separate pages to avoid cognitive overload.
+
+### User Stories
+
+
+
+### Design Goals
+
+### Wireframes
+
+
+
+## Features
+
+### Implemented
+
+### Planned
 
 
 
