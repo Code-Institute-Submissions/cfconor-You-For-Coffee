@@ -47,6 +47,8 @@ To create a well-structured informative website that provides some useful, pract
 
 ### Design Goals
 
+- Consistent header across all pages to encourage clear branding, and remind visitors that they are still on the same website.
+
 ### Wireframes
 
 
@@ -55,9 +57,18 @@ To create a well-structured informative website that provides some useful, pract
 
 ### Implemented
 
+- Simple navbar that allows one-click navigation across all webpages, consistent design on all webpages to support first-time learning.
+
 ### Planned
 
+- Step-by-step instructions with pictures on how to create 'the perfect cup of coffee'
 
+- A map of ireland with locations for a number of irish roasteries.
+
+- A page with separate sections for:
+    - Coffee: a Brief History
+    - Coffee Culture
+    - The Health Benefits of Moderate Coffee Consumption
 
 ## Credits 
 
