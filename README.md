@@ -14,13 +14,15 @@
     - Design Goals
     - Wireframes
 
-2. Features
+2. [Features](#features)
     - Implemented
     - Planned
 
-3. Testing
+3. [Testing](#testing)
 
-4. Credits
+4. [Deployment](#deployment)
+
+5. [Credits](#credits)
     - Table of Contents Layout
 
 
@@ -69,6 +71,10 @@ To create a well-structured informative website that provides some useful, pract
     - Coffee: a Brief History
     - Coffee Culture
     - The Health Benefits of Moderate Coffee Consumption
+
+## Testing
+
+## Deployment
 
 ## Credits 
 
