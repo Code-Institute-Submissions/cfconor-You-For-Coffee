@@ -83,3 +83,7 @@ To create a well-structured informative website that provides some useful, pract
 ### Table of Contents Layout
 
 The table of contents used in this readme was heavily inspired by the example given in the Code Institute videos for this module, as I felt they covered all the requirements for a solid readme design. 
+
+### Colour Palette
+
+The colour palette was heavily inspired by the great website [coolors.co](https://coolors.co/), which provided some great examples of colours that worked well together, to help find the theme that was suitable for the site.
