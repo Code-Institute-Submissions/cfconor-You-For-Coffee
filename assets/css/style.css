@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,600;1,400&display=swap');
 
 
 /* --------------COLORS----------------- */
@@ -12,6 +13,13 @@ header {
 
 /* ------Special Paddings/margin/text------- */
 
+h1,h2,h3,h4 {
+    margin: 0;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
 
 
 
@@ -19,8 +27,49 @@ header {
 
 header {
     margin: 0;
+    font-family: 'Montserrat', sans-serif;
+
 }
 
+header h1 {
+    font-size: 60px;
+    border-bottom: 3px dotted #443730;
+}
+
+.logo  {
+    background: url("../img/logo.jpg");
+    min-height: 300px;
+    background-position: center;
+    background-repeat: no-repeat;
+    
+}
+
+.title h1 {
+    margin-right: 10px;
+}
+
+.title h2 {
+    font-style: italic;
+}
+
+
+nav li {
+    list-style: none;
+    text-align: center;
+    font-size: 28px;
+}
+
+/* --------------PAGE BODY----------------- */
+
+.instructions {
+    font-family: 'Montserrat', sans-serif;
+}
+
+.instructions h2 {
+    font-weight: 600;
+    text-align: center;
+    margin-top: 50px;
+}
 
 
 
