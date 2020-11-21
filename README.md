@@ -19,6 +19,7 @@
     - Planned
 
 3. [Testing](#testing)
+    - Images
 
 4. [Deployment](#deployment)
 
@@ -76,6 +77,9 @@ To create a well-structured informative website that provides some useful, pract
 
 ## Testing
 
+### Images 
+The images originally sourced as free stock images from pexels.com where very large (>4000px) jpg files, so the loading times were slowed considerably when initialliy loading the pages. Therefore, one of the first steps in importing this images for use was to downsize them to a smaller resolution, making the files smaller in size, with the aims of speeding up initial loading times. 
+
 ## Deployment
 
 ## Credits 
@@ -83,6 +87,10 @@ To create a well-structured informative website that provides some useful, pract
 ### Table of Contents Layout
 
 The table of contents used in this readme was heavily inspired by the example given in the Code Institute videos for this module, as I felt they covered all the requirements for a solid readme design. 
+
+### Navbar Layout
+
+The layout of the header and navbar was heavily inspired by the resume project done in the User-Centric Design module, as it was a clean and feature-rich example of what can be achieved with bootstrap. 
 
 ### Colour Palette
 
