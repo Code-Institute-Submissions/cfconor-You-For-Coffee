@@ -38,10 +38,11 @@ header h1 {
 
 .logo  {
     background: url("../img/logo.jpg");
-    min-height: 300px;
+    min-height: 200px;
     background-position: center;
     background-repeat: no-repeat;
-    
+    background-size: cover;
+
 }
 
 .title h1 {
