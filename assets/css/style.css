@@ -4,12 +4,15 @@
 /* --------------COLORS----------------- */
 
 body {
-    background-color: #F7DAD9;
+    background-color: #979289;
 }
 header {
-    background-color: #A4C3B2;
-    color: #443730;
+    background-color: #4B3B40;
+    color: #979289;
 }
+
+
+
 footer {
     background-color: #A4C3B2;
     color: #443730;
@@ -32,7 +35,8 @@ h1,h2,h3,h4 {
 header {
     margin: 0;
     font-family: 'Montserrat', sans-serif;
-
+    padding-top: 20px; 
+    padding-left: 20px;
 }
 
 header h1 {
@@ -42,10 +46,11 @@ header h1 {
 
 .logo  {
     background: url("../img/logo-main.png");
-    min-height: 200px;
+    min-height: 210px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: inherit;
+    margin-bottom: 20px;
 
 }
 
@@ -65,6 +70,17 @@ nav li {
     font-size: 28px;
     margin-top: 20px;
     margin-bottom: 20px;
+    height: 60px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #979289;
+}
+
+nav a:hover {
+    color: #E086D3;
+    text-decoration: none;
 }
 
 /* --------------PAGE BODY----------------- */
