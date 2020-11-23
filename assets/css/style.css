@@ -36,6 +36,14 @@ nav a:hover {
     color: #E086D3;
 }
 
+.vendors a {
+    color: #4B3B40;
+}
+
+.vendors a:hover {
+    color: #E086D3;
+}
+
 /* ------Special Paddings/margin/text------- */
 
 body {
@@ -119,6 +127,13 @@ h2 {
     
 }
 
+header h2 {
+    margin: 0;
+    text-align: left;
+    font-size: 40px;
+    font-weight: 400;
+}
+
 .instructions {
     font-family: 'Montserrat', sans-serif;
 }
@@ -133,9 +148,32 @@ h2 {
 
 .vendors ul {
     list-style: none;
+    text-align: center;
+}
+
+.vendors li {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.vendors a:hover {
+    text-decoration: none;
+}
+
+.health-benefits ul {
+    width: 100%;
+    list-style: none;
+}
+
+.source-credit {
+    width: 100%;
 }
 
 
+#equipmentforcoffee {
+    width: 80%;
+    
+}
 
 /* --------------FOOTER----------------- */
 
@@ -143,6 +181,11 @@ footer {
     width: 100%;
     text-align: center;
     margin-top: 10px;
+    padding-bottom: 50px;
     padding-top: 10px;
     min-height: 100px;
+}
+
+footer .list-inline-item {
+    margin-top: 30px;
 }
