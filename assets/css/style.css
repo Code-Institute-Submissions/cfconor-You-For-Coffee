@@ -14,8 +14,8 @@ header {
 
 
 footer {
-    background-color: #A4C3B2;
-    color: #443730;
+    background-color: #4B3B40;
+    color: #979289;
 }
 
 /* ------Special Paddings/margin/text------- */
@@ -41,7 +41,7 @@ header {
 
 header h1 {
     font-size: 60px;
-    border-bottom: 3px dotted #443730;
+    border-bottom: 5px solid #979289;
 }
 
 .logo  {
@@ -99,3 +99,10 @@ nav a:hover {
 
 
 /* --------------FOOTER----------------- */
+
+footer {
+    text-align: center;
+    margin-top: 10px;
+    padding-top: 10px;
+    min-height: 200px;
+}
