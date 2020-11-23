@@ -75,6 +75,8 @@ To create a well-structured informative website that provides some useful, pract
 
 - A map of ireland with locations for a number of irish roasteries.
 
+- A bootstrap carousel for the various other methods available for making coffee, with pictures, captions and links.
+
 ## Testing
 
 ### Images 
@@ -88,6 +90,9 @@ The original method I attempted for this was to use rows for each step in the in
 ### Issue with header and footer not stretching over Full Width
 
 On super-wide monitors, the header and footer seem to leave a gap at the edge of the screen. I will investigate this further once high priority objectives are complete
+
+### Carousel implementation for equipment.html
+This became problematic quickly, and was a fairly new concept to me, so after some tinkering I decided to lay this planned feature aside for a future release, as to study this component to the point of being able to implement it in a responsive setup would be difficult in the time remaining before project submission.
 
 ## Deployment
 
