@@ -45,8 +45,17 @@ Create a website educating visitors about the beverage of coffee.
 To create a well-structured informative website that provides some useful, practical information in a pleasant visual format, laid out into separate pages to avoid cognitive overload.
 
 ### User Stories
-
-
+- I want a simple guide to make a cup of coffee, because I do not know how to best make coffee
+- I want a navigation tool to easily get to each page, because I do not want to click several links to get the information I need
+- I want a visually pleasing webpage, so that I do not get bored easily
+- I want to learn more about where coffee originated from, because I am curious where the beverage comes from
+- I want to know if there are any health benefits to drinking coffee, because I now often drink coffee
+- I want to learn more about coffee culture in Ireland, because I am seeing more evidence of it in my locality
+- I want to know where I can buy coffee, so that I can make a purchase
+- I want to know if I can buy coffee in Ireland, so that I can make a purchase
+- I want to know where in Ireland coffee can be bought, so that I can make a purchase
+- I want to know if there is an easy way to make coffee, because I have a small budget and would still like to enjoy coffee
+- I want to find all the different ways to make coffee, so that I can choose one.
 
 ### Design Goals
 
