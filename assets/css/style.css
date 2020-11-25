@@ -59,8 +59,6 @@ h1,h2,h3,h4 {
     text-transform: uppercase;
 }
 
-
-
 /* --------------HEADING----------------- */
 
 header {
@@ -82,7 +80,6 @@ header h1 {
     background-repeat: no-repeat;
     background-size: inherit;
     margin-bottom: 20px;
-
 }
 
 .title h1 {
@@ -97,7 +94,6 @@ figcaption {
     text-align: center;
 }
 
-
 nav li {
     list-style: none;
     text-align: center;
@@ -109,7 +105,6 @@ nav li {
 
 nav a {
     text-decoration: none;
-    
 }
 
 nav a:hover {
@@ -124,7 +119,6 @@ h2 {
     text-align: center;
     margin-top: 50px;
     margin-bottom: 50px;
-    
 }
 
 header h2 {
@@ -137,8 +131,6 @@ header h2 {
 .instructions {
     font-family: 'Montserrat', sans-serif;
 }
-
-
 
 .instructions-imgs {
     max-height: 300px;
@@ -169,10 +161,8 @@ header h2 {
     width: 100%;
 }
 
-
 #equipmentforcoffee {
     width: 80%;
-    
 }
 
 /* --------------FOOTER----------------- */
