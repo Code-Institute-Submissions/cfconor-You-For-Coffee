@@ -4,16 +4,16 @@
 /* --------------COLORS----------------- */
 
 body {
-    background-color: #b3adbd;
+    background-color: #dbd1cf;
 }
 header {
     background-color: #4B3B40;
-    color: #b3adbd;
+    color: #dbd1cf;
 }
 
 footer {
     background-color: #4B3B40;
-    color: #b3adbd;
+    color: #dbd1cf;
 }
 
 .figure-caption {
@@ -29,7 +29,7 @@ a:hover {
 }
 
 nav a {
-    color: #b3adbd;
+    color: #dbd1cf;
 }
 
 nav a:hover {
@@ -72,7 +72,7 @@ header {
 
 header h1 {
     font-size: 60px;
-    border-bottom: 5px solid #b3adbd;
+    border-bottom: 5px solid #dbd1cf;
 }
 
 .logo  {
