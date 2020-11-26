@@ -1,30 +1,32 @@
 # *You For Coffee?* - A Dedication to Coffee 
+  - [Introduction](#introduction)
+  - [UX](#ux)
+    - [Project Goals](#project-goals)
+    - [Customer Goals](#customer-goals)
+    - [Developer Goals](#developer-goals)
+    - [User Stories](#user-stories)
+    - [Design Goals](#design-goals)
+    - [Wireframes](#wireframes)
+  - [Features](#features)
+    - [Implemented](#implemented)
+    - [Planned](#planned)
+  - [Testing](#testing)
+    - [Images](#images)
+    - [Instructions on Brewing Coffee](#instructions-on-brewing-coffee)
+    - [Issue with header and footer not stretching over Full Width](#issue-with-header-and-footer-not-stretching-over-full-width)
+    - [Carousel implementation for equipment.html](#carousel-implementation-for-equipmenthtml)
+  - [Deployment](#deployment)
+    - [Deployment Locally](#deployment-locally)
+    - [Deployment on Github Pages](#deployment-on-github-pages)
+  - [Credits](#credits)
+    - [Table of Contents Layout](#table-of-contents-layout)
+    - [Navbar Layout](#navbar-layout)
+    - [Colour Palette](#colour-palette)
+    - [Images](#images-1)
 
 ## Introduction
 
 *You For Coffee?* is inspired by the relatively recent but significant rise in coffee culture in Ireland. It is created to help educate visitors on some good methods to create a good cup of coffee, while providing resources to educate, and finally some links to some of the fantastic coffee roasters found around the country.
-
-## Table of Contents
-
-1. [UX](#ux) 
-    - Project Goals
-    - Customer Goals
-    - Developer Goals
-    - User Stories
-    - Design Goals
-    - Wireframes
-
-2. [Features](#features)
-    - Implemented
-    - Planned
-
-3. [Testing](#testing)
-    - Images
-
-4. [Deployment](#deployment)
-
-5. [Credits](#credits)
-    - Table of Contents Layout
 
 
 
@@ -55,11 +57,12 @@ To create a well-structured informative website that provides some useful, pract
 - I want to know if I can buy coffee in Ireland, so that I can make a purchase
 - I want to know where in Ireland coffee can be bought, so that I can make a purchase
 - I want to know if there is an easy way to make coffee, because I have a small budget and would still like to enjoy coffee
-- I want to find all the different ways to make coffee, so that I can choose one.
+- I want to find all the different ways to make coffee, so that I can choose one
 
 ### Design Goals
 
 - Consistent header across all pages to encourage clear branding, and remind visitors that they are still on the same website.
+- Comfortable colour scheme that would not stress viewers who might be accustomed to viewing webpages at night, and are sensitive to overly bright webpages.
 
 ### Wireframes
 
@@ -107,6 +110,20 @@ This became problematic quickly, and was a fairly new concept to me, so after so
 
 ## Deployment
 
+### Deployment Locally
+
+During testing, the website was deployed locally using the below command:
+
+```
+python3 -m http.server
+```
+
+### Deployment on Github Pages
+
+In order to host the website on Github Pages, I needed to update the settings in the repo on Github.com, then enable the Github Pages feature for the master branch. I noticed that none of my images were loading correctly, and updated the relative paths in the html so that they would load without issue.
+
+There was some confusion here caused by the slight delay from pushing a new version of the source code to the master branch, and these changes being shown in the deployed website, but this was otherwise quite straightforward.
+
 ## Credits 
 
 ### Table of Contents Layout
@@ -120,3 +137,7 @@ The layout of the header and navbar was heavily inspired by the resume project d
 ### Colour Palette
 
 The colour palette was heavily inspired by the great website [coolors.co](https://coolors.co/), which provided some great examples of colours that worked well together, to help find the theme that was suitable for the site.
+
+### Images
+
+All images have been credited to their respective owners, and links can be found attached to all images, linking to the original owner.
