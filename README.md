@@ -23,7 +23,6 @@
     - [Navbar Layout](#navbar-layout)
     - [Colour Palette](#colour-palette)
     - [Images](#images-1)
-
 ## Introduction
 
 *You For Coffee?* is inspired by the relatively recent but significant rise in coffee culture in Ireland. It is created to help educate visitors on some good methods to create a good cup of coffee, while providing resources to educate, and finally some links to some of the fantastic coffee roasters found around the country.
