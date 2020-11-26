@@ -71,11 +71,11 @@ header {
 
 header .row {
     max-width: 100%;
-    margin-left: 0px;
+   
 }
 
 .title {
-    padding: 0;
+    padding: 5;
 }
 
 header h1 {
@@ -140,6 +140,14 @@ header h2 {
     text-align: left;
     font-size: 40px;
     font-weight: 400;
+}
+
+h2 {
+    width: 100%;
+}
+
+p {
+    width: 100%;
 }
 
 .instructions {
@@ -213,6 +221,82 @@ footer .list-inline-item {
     .title h2 {
         text-align: center;
     }
+
+    .container {
+        width: 90%;
+        padding: 20px;
+        margin-left: auto;
+        margin-right: auto;
+        font-size: 2rem;
+    }
+
+    .row {
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #information-page-body h3  {
+        font-weight: 600;
+        font-size: 2rem;
+        width: 90%;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    } 
+    
+    #information-page-body h4 {
+        font-weight: 600;
+        font-size: 1.5rem;
+        width: 90%;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #information-page-body p {
+        max-width: 100%;
+        min-width: 100%;
+        text-align: center;
+        font-size: 150%;
+    }
+
+    .media {
+        max-width: 100%;
+        min-width: 100%;
+        clear: both;
+        float: none;
+        display: block;
+    }
+
+    .media-body {
+        text-align: center;
+        max-width: 100%;
+        min-width: 100%;
+        clear: both;
+        float: left;
+    }
+    .figure {
+        max-width: 100%;
+        min-width: 100%;
+        float: none;
+        clear: both;
+        text-align: center;
+    }
+
+    .image-right-side {
+        display: none;
+    }
+
+    .figure-img {
+        min-width: 300px;
+        max-height: 500px;
+    }
+
+    footer h5{
+        font-size: 1.5rem;
+    }
+
 }
 
 @media screen and (max-width: 943px){
@@ -221,10 +305,26 @@ footer .list-inline-item {
         padding-left: 0;
     }
 
-    nav li {
-        float: none;
-        width: 90%;
+    nav ul li {
+        height: 150%;
+        clear: both;
+        width: 100%;
+        max-width: 100%;
+        min-width: 100%;
         margin-left: auto;
         margin-right: auto;
+        padding-left: 10px;
+        
+    }
+    nav a {
+        margin-left: 25%;
+        margin-right: 25%;
+    }
+
+    .vendors {
+        max-width: 100%;
+        min-width: 100%;
+        clear: both;
+        float: left;
     }
 }
