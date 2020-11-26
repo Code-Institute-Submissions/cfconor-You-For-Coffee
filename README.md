@@ -65,7 +65,9 @@ To create a well-structured informative website that provides some useful, pract
 
 ### Wireframes
 
+Below is a wireframe showing the basic layout that was decided upon before the coding began. This was created in the balsamiq tool.
 
+![A mockup of the main page on all devices](assets/img/main-page-mockup.png)
 
 ## Features
 
