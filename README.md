@@ -93,6 +93,8 @@ The images originally sourced as free stock images from pexels.com where very la
 
 The initial log image was replaced with another, this time a soft-edged circular image in png format, which complimented the header better. I initially tried to make the min-height here 200px which matched the dimensions of the logo image, however had to push this out to 210px as it was cutting the bottom of the image and making it ugly.
 
+Initialliy a picture (pouring-water.png) began causing loading time increases while running the website locally, so it was converted to .jpg and scaled down as small as possible while still keeping the clean layout.
+
 ### Instructions on Brewing Coffee
 The original method I attempted for this was to use rows for each step in the instructions to ensure that they had their own space that could be easily manipulated for different viewports. Upon reviewing the bootstrap documentation however, it became clear that there was an alternative called [media object](https://getbootstrap.com/docs/4.0/layout/media-object/), which seemed more appropriate to the text-picture combo of content delivery I was looking for.
 

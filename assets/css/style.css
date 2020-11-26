@@ -62,10 +62,20 @@ h1,h2,h3,h4 {
 /* --------------HEADING----------------- */
 
 header {
+    width: 100%;
     margin: 0;
     font-family: 'Montserrat', sans-serif;
     padding-top: 20px; 
-    padding-left: 20px;
+    
+}
+
+header .row {
+    max-width: 100%;
+    margin-left: 0px;
+}
+
+.title {
+    padding: 0;
 }
 
 header h1 {
@@ -76,14 +86,17 @@ header h1 {
 .logo  {
     background: url("../img/logo-main.png");
     min-height: 210px;
+    min-width: 200px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: inherit;
     margin-bottom: 20px;
+    padding-left: 20px;
+    margin-left: 0px;
 }
 
 .title h1 {
-    margin-right: 10px;
+    margin-right: inherit;
 }
 
 .title h2 {
@@ -105,6 +118,7 @@ nav li {
 
 nav a {
     text-decoration: none;
+    display: block;
 }
 
 nav a:hover {
@@ -178,4 +192,39 @@ footer {
 
 footer .list-inline-item {
     margin-top: 30px;
+}
+
+/* --------------BREAKPOINTS----------------- */
+
+@media screen and (max-width: 1396px){
+    .logo {
+        width: 100%;
+        clear: both;
+        float: right;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .title {
+        width: 90%;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .title h2 {
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 943px){
+    nav ul {
+        width: 100%;
+        padding-left: 0;
+    }
+
+    nav li {
+        float: none;
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
 }
