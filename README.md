@@ -1,4 +1,5 @@
 # *You For Coffee?* - A Dedication to Coffee 
+  - [*You For Coffee?* - A Dedication to Coffee](#you-for-coffee---a-dedication-to-coffee)
   - [Introduction](#introduction)
   - [UX](#ux)
     - [Project Goals](#project-goals)
@@ -11,10 +12,9 @@
     - [Implemented](#implemented)
     - [Planned](#planned)
   - [Testing](#testing)
-    - [Images](#images)
-    - [Instructions on Brewing Coffee](#instructions-on-brewing-coffee)
-    - [Issue with header and footer not stretching over Full Width](#issue-with-header-and-footer-not-stretching-over-full-width)
-    - [Carousel implementation for equipment.html](#carousel-implementation-for-equipmenthtml)
+    - [During Development](#during-development)
+    - [Browsers](#browsers)
+    - [Other Devices](#other-devices)
   - [Deployment](#deployment)
     - [Deployment Locally](#deployment-locally)
     - [Deployment on Github Pages](#deployment-on-github-pages)
@@ -22,7 +22,8 @@
     - [Table of Contents Layout](#table-of-contents-layout)
     - [Navbar Layout](#navbar-layout)
     - [Colour Palette](#colour-palette)
-    - [Images](#images-1)
+    - [Images](#images)
+
 ## Introduction
 
 *You For Coffee?* is inspired by the relatively recent but significant rise in coffee culture in Ireland. It is created to help educate visitors on some good methods to create a good cup of coffee, while providing resources to educate, and finally some links to some of the fantastic coffee roasters found around the country.
@@ -117,10 +118,15 @@ Below is a wireframe showing the basic layout that was decided upon before the c
   * Examined each page to ensure all pages were clear and readable on the device
   * Tested site in horizontal read mode. The width of the the screen reduced readability slightly but I believe this is due to the narrow width of the device rather than an issue that can be addressed in the web design.
   * Tested all links to ensure functionality as expected
-* Samsung A20e - tested each page individually for all tests below
+* Samsung Galaxy A20e - tested each page individually for all tests below
   * Examined each page to ensure all pages were clear and readable on the device
   * Tested site in horizontal read mode. The width of the the screen reduced readability slightly but I believe this is due to the narrow width of the device rather than an issue that can be addressed in the web design.
   * Tested all links to ensure functionality as expected
+* Amazon Fire 10 - tested each page individually for all tests below
+  * Examined each page to ensure all pages were clear and readable on the device
+  * Tested site in horizontal read mode. On the tablet the readability was not affected to any major degree
+  * Tested all links to ensure functionality as expected
+
 ## Deployment
 
 ### Deployment Locally
