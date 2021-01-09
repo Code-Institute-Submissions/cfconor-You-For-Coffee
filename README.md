@@ -90,30 +90,37 @@ Below is a wireframe showing the basic layout that was decided upon before the c
 
 ## Testing
 
-### Images 
-The images originally sourced as free stock images from pexels.com where very large (>4000px) jpg files, so the loading times were slowed considerably when initialliy loading the pages. Therefore, one of the first steps in importing this images for use was to downsize them to a smaller resolution, making the files smaller in size, with the aims of speeding up initial loading times. 
+### During Development
+* Site was tested using Chrome Developer Tools during development
+  * Ensured that padding and margins were behaving as expected from styles.css
+  * Ensured images were resizing correctly at different resolutions
+  * Tested responsiveness by using the *Responsive Design Mode* feature to simulate the layout on various devices like iphone 6, iPads or Samsung Galaxys
+  * Investigated and examined unwanted issues in the html and css using the developer tools to show attributes of various elements when they are displayed on the page, in order to fix them in the source code.
+  * Examined the bootstrap features to ensure that there were no issues with tags inherited from bootstrap  on all pages
+  * Cross examined elements to ensure bootstrap was not overriding user stylesheet on all pages
+### Browsers
+* Google Chrome - tested each page individually for all tests below
+  * Tested layout on normal desktop resolution
+  * Tested responsiveness by resizing the window and ensuring there was no overlap of elements or misalignment of content on page
+  * Tested all links to ensure functionality as expected
+* Firefox - tested each page individually for all tests below
+  * Tested layout on normal desktop resolution
+  * Tested responsiveness by resizing the window and ensuring there was no overlap of elements or misalignment of content on page
+  * Tested all links to ensure functionality as expected
+* Safari - tested each page individually for all tests below
+  * Tested layout on normal desktop resolution
+  * Tested responsiveness by resizing the window and ensuring there was no overlap of elements or misalignment of content on page
+  * Tested all links to ensure functionality as expected
 
-The initial log image was replaced with another, this time a soft-edged circular image in png format, which complimented the header better. I initially tried to make the min-height here 200px which matched the dimensions of the logo image, however had to push this out to 210px as it was cutting the bottom of the image and making it ugly.
-
-Initialliy a picture (pouring-water.png) began causing loading time increases while running the website locally, so it was converted to .jpg and scaled down as small as possible while still keeping the clean layout.
-
-While testing for smaller screen devices like tablets and Iphones, the vertical list that all the media divs contained was cluttered with images, where one paragraph of text would be split by two images before the next paragraph, after which there would be another paragraph before 2 more images together, and so on. As a design choice, I set the 
-
-```
-display: none;
-```
-tag in CSS to every second image, so that there was less clutter, a more sensible reading layout, and consistency, while still having some visuals for the reader to stay interested.
-
-### Instructions on Brewing Coffee
-The original method I attempted for this was to use rows for each step in the instructions to ensure that they had their own space that could be easily manipulated for different viewports. Upon reviewing the bootstrap documentation however, it became clear that there was an alternative called [media object](https://getbootstrap.com/docs/4.0/layout/media-object/), which seemed more appropriate to the text-picture combo of content delivery I was looking for.
-
-### Issue with header and footer not stretching over Full Width
-
-On super-wide monitors, the header and footer seem to leave a gap at the edge of the screen. I will investigate this further once high priority objectives are complete
-
-### Carousel implementation for equipment.html
-This became problematic quickly, and was a fairly new concept to me, so after some tinkering I decided to lay this planned feature aside for a future release, as to study this component to the point of being able to implement it in a responsive setup would be difficult in the time remaining before project submission.
-
+### Other Devices
+* iPhone 8 - tested each page individually for all tests below
+  * Examined each page to ensure all pages were clear and readable on the device
+  * Tested site in horizontal read mode. The width of the the screen reduced readability slightly but I believe this is due to the narrow width of the device rather than an issue that can be addressed in the web design.
+  * Tested all links to ensure functionality as expected
+* Samsung A20e - tested each page individually for all tests below
+  * Examined each page to ensure all pages were clear and readable on the device
+  * Tested site in horizontal read mode. The width of the the screen reduced readability slightly but I believe this is due to the narrow width of the device rather than an issue that can be addressed in the web design.
+  * Tested all links to ensure functionality as expected
 ## Deployment
 
 ### Deployment Locally
